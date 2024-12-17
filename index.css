@@ -2,25 +2,26 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: beige;
+    background-color: #415A77;
 }
 
 
 header {
     text-align: center;
-    background-color: rgb(211, 211, 164);
-    color: black;
+    background-color: #1B263B;
+    color: #E0E1DD;
     padding: 6rem 0;
     box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
 }
 
 h1 {
+    color: white;
     margin: 0;
 }
 
 .nav-bar a {
     text-decoration: none;
-    color:black;
+    color:#E0E1DD;
 }
 
 .product {
@@ -28,7 +29,7 @@ h1 {
     flex-direction: column;
     align-items: center;
     padding: 2rem;
-    background-color: white;
+    background-color: #0D1B2A;
     border-radius: 5%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-left: 35%;
@@ -36,20 +37,16 @@ h1 {
     margin-bottom: 2rem;
     text-align: center;
     font-size: 1.2rem;
-    color: black;
+    color: #E0E1DD;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
     line-height: 1.5;
     border: 1px solid black;
-    background-color: rgb(211, 211, 164);
-    color: black;
     padding: 1rem;
     margin: 1rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
-    
-
 }
 
 .product img {
@@ -60,13 +57,16 @@ h1 {
 }
 
 .product button {
-    background-color: green;
-    width: 50%;
-    height: 50px;
-    border-radius: 8%;
-    color: white;
-    font-size: 1.2rem;
-    margin-top: 1rem;
-    cursor: pointer;
-    border: none;
+  background-color: #1B263B;
+  position: relative;
+  padding: 12px 35px;
+  font-size: 17px;
+  font-weight: 500;
+  color: #ffffff;
+  border: 3px solid #1B263B;
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  width: 60%;
+  height: 70px;
 }
