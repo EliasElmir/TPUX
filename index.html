@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boutique d'image</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="image-removebg-preview (7).png" alt="logo" style="width: 270px; height: auto; float: left; margin-top: -65px; margin-left: 50px;">
+        </div>
+
+        <div class="search-bar">
+            <input type="text" placeholder="Rechercher un produit..." style="width: 500px; height: 50px; border-radius: 5px; border: 1px solid black; margin-top: 10px; margin-left: -200px;">
+            <button style="width: 50px; height: 50px; border-radius: 5px; border: 1px solid black; margin-top: 10px; cursor: pointer;">🔎</button>
+        </div>
+
+<div class="nav-bar">
+        <ul style="list-style: none; display: flex; gap: 70px; padding: 0; float: right; margin-top: -30px; margin-right: 300px;">
+            <button1><a href="#accueil"><img src="image-removebg-preview (8).png" alt="Accueil" style="width: 20px; height: 20px; vertical-align: middle;"> Accueil</a></button1>
+            <button2><a href="#accueil"><img src="image-removebg-preview (9).png" alt="Accueil" style="width: 20px; height: 20px; vertical-align: middle;"> Panier</a></button2>
+            <button3><a href="#accueil"><img src="image-removebg-preview (10).png" alt="Accueil" style="width: 20px; height: 20px; vertical-align: middle;"> Compte</a></button3>
+        </ul>
+</div>
+        
+    </header>
+
+<main style="display: flex; flex-direction: column; align-items: center;"></main>
+    <h1 style="text-align: center; margin-top: 30px; font-size: 2.5em;">Nos produits :</h1>
+
+<div class="all-products" id="products-container" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; padding: 20px;"></div>
+
+<p id="loading-message" style="text-align:center; display:none;">Chargement...</p>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
